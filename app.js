@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'YOUR_INDEX_FOLDER_PATH')));
+app.use(express.static(path.join(__dirname, 'web')));
 
 
 const PORT = 7271;
